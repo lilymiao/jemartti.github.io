@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #565A49;
+
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 6em;
+}
+
+.flex-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    color: white;
+    text-align: center;
+}
